@@ -19,5 +19,3 @@ png('plot2.png', height = 480, width = 480)
 plot(datetimes, global.active.power, type = 'l', ylab = 'Global Active Power (kilowatts)',
      xlab = '')
 dev.off()
-
-?plot
